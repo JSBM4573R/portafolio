@@ -1,0 +1,41 @@
+.wave {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  top: 10px;
+}
+
+.wave__particles {
+  z-index: -99;
+}
+
+.wave__content {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.wave__svg {
+  width: 300%;
+  height: 500px;
+  position: absolute;
+  top: 100px;
+  transform: rotate(180deg);
+  background-image: url(./../../img/body/wd1.svg);
+  background-color: transparent;
+}
+
+.wave__svg--animation {
+  animation: wave-animation 7s linear infinite;
+}
+
+@keyframes wave-animation {
+  0% {
+    margin-left: 0;
+  }
+
+  100% {
+    margin-left: -1600px;
+  }
+}
