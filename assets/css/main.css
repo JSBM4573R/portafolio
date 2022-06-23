@@ -217,7 +217,7 @@ body {
   position: absolute;
   top: 100px;
   transform: rotate(180deg);
-  background-image: url(../img/body/wd1.svg);
+  background-image: url(./../img/body/wd1.svg);
   background-color: transparent;
 }
 
