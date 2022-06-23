@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -7,44 +7,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Juan Sebastián</title>
   <link rel="shortcut icon" href="img/logo/logo-jsbm-medium.png" type="image/x-icon">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/main.css">
 
 </head>
 
 <body>
 
-  <header>
-    <div class="container-principal-header">
-      <div class="container-logo">
-        <a href="#"><img class="logo" src="img/logo/logo-jsbm-mini.png" alt="logo JSBM"></a> 
-      </div>
-      <nav>
-        <ul>
-          <li>educacion</li>
-          <li>conocimiento</li>
-          <li>experiencia</li>
-          <li>contacto</li>
-        </ul>
-      </nav>
+  <header class="header">
+    <div class="logo">
+      <a href="#"><img class="logo__img" src="img/logo/logo-jsbm-mini.png" alt="logo JSBM"></a>
     </div>
+    <nav class="menu">
+      <ul class="menu__list">
+        <li class="menu__item"> <a href="#" class="menu__link">educacion</a> </li>
+        <li class="menu__item"> <a href="#" class="menu__link">conocimiento</a> </li>
+        <li class="menu__item"> <a href="#" class="menu__link">experiencia</a> </li>
+        <li class="menu__item"> <a href="#" class="menu__link">contacto</a> </li>
+      </ul>
+    </nav>
   </header>
 
-  <main>
-    <div class="container-main-principal">
-      <div class="descripcion-main">
-        <h1>Juan Sebastian Bustos Marroquin</h1>
-        <span>Programador de software</span>
-        <p>Soy un apasionado por la programación y el desarrollo de software de origen Colombiano. Me gustan los retos, afrontarlos y cumplirlos, siempre estoy aprendiendo algo nuevo, por ese motivo, tengo conocimiento en varias tecnologias gracias a mi rapidagit  capacidad de aprendizaje y crecimiento profesional.</p>
-        <button>CV</button>
+  <main class="main">
+    <div class="main__particles" id="particles-bg"></div>
+    <section class="home" id="home">
+      <div class="presentation">
+        <h1 class="presentation__name">Juan Sebastian Bustos Marroquin</h1>
+        <span class="presentation__tittle">Desarrollador Web Full Stack</span>
+        <p class="presentation__description">
+          Soy un apasionado por la programación y el desarrollo de software de origen Colombiano. Me gustan los retos,
+          afrontarlos y cumplirlos, siempre estoy aprendiendo algo nuevo, por ese motivo, tengo conocimiento en varias
+          tecnologias gracias a mi rapida capacidad de aprendizaje y crecimiento profesional.</p>
+        <button class="presentation__button">Descargar CV</button>
       </div>
-      <div class="container-imagen-main">
-        <img class="img-main" src="img/body/img-body-main.svg" alt="" srcset="">
+      <div class="picture">
+        <img class="picture__img" src="img/body/img-home.png" alt="picture-home">
       </div>
-    </div>
+    </section>
+
+    <section class="wave">
+      <div class="wave__particles" id="particles-bg-wave"></div>
+      <div class="wave__content">
+        <div class="wave__svg wave__svg--animation"></div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="profile">
+        <div class="profile__marco">
+          <!-- <img class="profile__img" src="" alt="juan sebastian photo"> -->
+        </div>
+      </div>
+    </section>
+
   </main>
 
 
-
+  <script type="text/javascript" src="assets/particles/particles.min.js"></script>
+  <script src="assets/particles/particles.js"></script>
   <script src="js/script.js"></script>
 </body>
 
