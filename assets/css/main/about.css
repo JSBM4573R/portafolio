@@ -1,12 +1,66 @@
 .about {
   width: 100%;
+  height: 100%;
   margin: auto;
-  min-height: 700px;
-  z-index: 99;
+  min-height: 400px;
   background-color: var(--main-color-second);
 }
 
 .profile {
-  padding: 100px 50px;
-  z-index: 99;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo__marco { /* deprecaried */
+  position: relative;
+  height: 320px;
+  width: 320px;
+  padding: 50px;
+  border-radius: 160px;
+  border: 7px solid var(--main-color-lightes);
+  position: relative;
+  z-index: 98;
+  background: transparent;
+}
+
+.profile__photo {
+  width: 350px;
+  border: 7px solid var(--color-white-tittles);
+  border-radius: 200px;
+  box-shadow: 0 0 5px var(--color-gray);
+  /* position: relative; para el marco*/
+  transform: scale(1);
+  /* z-index: -1; para el marco*/ 
+  /* top: -335px para el marco;
+  left: -15.5px; para el marco*/
+}
+
+
+.profile__description {
+  max-width: 800px;
+  padding: 40px;
+}
+
+.profile__tittle {
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--main-color-lightes);
+}
+
+.profile__text {
+  font-size: 1.2em;
+  text-align: justify;
+  color: var(--color-gray);
+  padding: 10px 0;
+}
+
+.profile__firma {
+  margin-top: 10px;
+  width: 333px;
 }

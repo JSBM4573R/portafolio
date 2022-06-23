@@ -37,7 +37,7 @@
   height: 70px;
   border-radius: 50%;
   box-shadow: 0 0 20px var(--color-gray);
-  transition: .3s ease all;
+  transition: .2s ease all;
 }
 
 .logo__img:hover {
@@ -55,24 +55,39 @@
 .menu__link {
   font-size: 1.05em;
   font-weight: bold;
-  padding: 10px;
+  text-transform: capitalize;
+  padding: 10px 0;
   cursor: pointer;
-  margin-left: 40px;
+  margin-left: 50px;
+  display: inline-block;
   text-decoration: none;
-  transition: .3s ease all;
+  text-decoration-skip-ink: auto;
+  position: relative;
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
   color: var(--color-white);
   background-position: 0% 100%;
   background-repeat: no-repeat;
-  background-size: 0% 3px;
-  transition: background-size .4s;
-  text-shadow: 0 0 5px rgba(255, 255, 255, .50);
+  background-size: 0% 2px;
+  transition: background-size 0.25s;
+  text-shadow: 0 0 1px rgba(255, 255, 255, .50);
   background-image: linear-gradient(var(--main-color-lightes),
-      var(--main-color-lightes));
+                                    var(--main-color-lightes));
+}
+
+.menu__link::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-white);
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  opacity: 0.5;
 }
 
 .menu__link:hover,
 .menu__link:focus {
   color: var(--main-color-lightes);
-  background-size: 100% 3px;
+  background-size: 100% 2px;
   border-radius: 1.5px;
 }

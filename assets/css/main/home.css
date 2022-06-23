@@ -27,6 +27,7 @@
   margin: 10px 0 20px 0;
   font-size: 2em;
   font-weight: bold;
+  text-transform: uppercase;
   color: var(--main-color-lightes);
 }
 
@@ -47,7 +48,7 @@
   background-color: var(--main-color);
   color: var(--color-gray);
   cursor: pointer;
-  transition: .3s ease all;
+  transition: .2s ease all;
 }
 
 .presentation__button:hover {
