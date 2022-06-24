@@ -46,7 +46,7 @@
   border: 2px solid var(--main-color-lightes);
   border-radius: 20px;
   background-color: var(--main-color);
-  color: var(--color-gray);
+  color: var(--main-color-lightes);
   cursor: pointer;
   transition: .2s ease all;
 }
