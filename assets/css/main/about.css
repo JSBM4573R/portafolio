@@ -62,5 +62,6 @@
 
 .profile__firma {
   margin-top: 10px;
-  width: 333px;
+  width: 233px;
+  transform: rotate(-5deg);
 }
