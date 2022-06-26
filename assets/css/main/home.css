@@ -63,4 +63,5 @@
 
 .picture__img {
   height: 600px;
+  transform: translateX(-50px);
 }
