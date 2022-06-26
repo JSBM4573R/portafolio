@@ -37,7 +37,7 @@
   height: 70px;
   border-radius: 50%;
   box-shadow: 0 0 20px var(--color-gray);
-  transition: .2s ease all;
+  transition: var(--transition-box);
 }
 
 .logo__img:hover {
@@ -55,7 +55,7 @@
 .menu__link {
   font-size: .95em;
   font-weight: bold;
-  text-transform: capitalize;
+  text-transform: lowercase;
   padding: 10px 0;
   cursor: pointer;
   margin-left: 50px;
@@ -63,7 +63,7 @@
   text-decoration: none;
   text-decoration-skip-ink: auto;
   position: relative;
-  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  transition: var(--transition-text);
   color: var(--color-white);
   background-position: 0% 100%;
   background-repeat: no-repeat;
@@ -81,7 +81,7 @@
   height: 1px;
   position: relative;
   background-color: var(--color-white);
-  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  transition: var(--transition-text);
   opacity: 0.5;
 }
 

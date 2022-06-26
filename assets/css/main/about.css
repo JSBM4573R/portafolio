@@ -48,9 +48,24 @@
 }
 
 .profile__tittle {
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: bold;
-  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-transform: lowercase;
+  color: var(--color-light-blue);
+}
+
+.profile__tittle::before {
+  content: '<';
+  font-size: 1em;
+  padding: 0 10px;
+  color: var(--color-light-blue);
+}
+
+.profile__tittle::after {
+  content: '/>';
+  font-size: 1em;
+  padding: 0 10px;
   color: var(--color-light-blue);
 }
 

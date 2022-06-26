@@ -9,7 +9,7 @@
 .blob__two {
   position: absolute;
   right: -450px;
-  top: 300px;
+  top: 320px;
   z-index: -1;
   transform: rotate(180deg);
   transform: scale(1.1);
@@ -18,5 +18,4 @@
 .blob__fill {
   fill: var(--main-color-second);
   opacity: .6;
-  transform: translateY(450), translateX(350);
 }

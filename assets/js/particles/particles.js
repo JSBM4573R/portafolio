@@ -11,13 +11,13 @@ particlesJS("particles-bg", {
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#f4f4f4"
     },
     "shape": {
       "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#000000"
+        "color": "#f4f4f4"
       },
       "polygon": {
         "nb_sides": 5
@@ -43,7 +43,7 @@ particlesJS("particles-bg", {
       "random": true,
       "anim": {
         "enable": true,
-        "speed": 10,
+        "speed": 8,
         "size_min": 0.5,
         "sync": false
       }
@@ -51,7 +51,7 @@ particlesJS("particles-bg", {
     "line_linked": {
       "enable": false,
       "distance": 150,
-      "color": "#1d1d1d",
+      "color": "#f4f4f4",
       "opacity": 0.4,
       "width": 1
     },
@@ -92,10 +92,10 @@ particlesJS("particles-bg", {
       },
       "bubble": {
         "distance": 400,
-        "size": 40,
-        "duration": 2,
-        "opacity": 8,
-        "speed": 3
+        "size": 100,
+        "duration": 1,
+        "opacity": 9,
+        "speed": 2
       },
       "repulse": {
         "distance": 200,
@@ -123,13 +123,13 @@ particlesJS("particles-bg-wave", {
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#f4f4f4"
     },
     "shape": {
       "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#000000"
+        "color": "#f4f4f4"
       },
       "polygon": {
         "nb_sides": 5
@@ -163,7 +163,7 @@ particlesJS("particles-bg-wave", {
     "line_linked": {
       "enable": false,
       "distance": 150,
-      "color": "#1d1d1d",
+      "color": "#f4f4f4",
       "opacity": 0.4,
       "width": 1
     },

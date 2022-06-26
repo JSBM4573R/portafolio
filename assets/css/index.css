@@ -20,9 +20,11 @@
   --color-gray: #a7a7a7;
   --color-light-gray: #b7b7b7;
   --color-light-white: #ebf0ff;
-  --text-shadow: 0 0 5px rgba(255, 255, 255, .50);
-  --box-shadow: 0 0 10px rgba(202, 202, 202, 0.5);
-  --border-radius: 15px;
+  --text-shadow: rgba(255, 255, 255, .50);
+  --box-shadow: rgba(202, 202, 202, 0.5);
+  --border-radius: 8px;
+  --transition-text: 0.25s cubic-bezier(0.645,0.045,0.355,1) all;
+  --transition-box: .3s cubic-bezier(0.39, 0.575, 0.565, 1) all;
 }
 
 html {
