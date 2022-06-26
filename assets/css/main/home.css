@@ -19,7 +19,7 @@
   text-transform: uppercase;
   text-shadow: 0 0 15px rgba(255, 255, 255, .50);
   font-size: clamp(20px, 10vw, 60px);
-  color: var(--color-white-tittles);
+  color: var(--color-light-white);
 }
 
 .presentation__tittle {
@@ -27,7 +27,7 @@
   font-size: 2em;
   font-weight: bold;
   text-transform: uppercase;
-  color: var(--main-color-lightes);
+  color: var(--color-light-blue);
 }
 
 .presentation__description {
@@ -42,12 +42,12 @@
   margin-top: 30px;
   max-width: 150px;
   height: 50px;
-  border: 2px solid var(--main-color-lightes);
-  border-radius: 20px;
+  border: 2px solid var(--color-light-blue);
+  border-radius: 15px;
   background-color: var(--main-color);
-  color: var(--main-color-lightes);
+  color: var(--color-light-blue);
   cursor: pointer;
-  transition: .2s ease all;
+  transition: .25s ease-in-out;
 }
 
 .presentation__button:hover {

@@ -22,7 +22,7 @@
   width: 320px;
   padding: 50px;
   border-radius: 160px;
-  border: 7px solid var(--main-color-lightes);
+  border: 7px solid var(--color-light-blue);
   position: relative;
   z-index: 98;
   background: transparent;
@@ -30,9 +30,10 @@
 
 .profile__photo {
   width: 350px;
-  border: 7px solid var(--color-white-tittles);
+  border: 5px solid var(--color-light-gray);
   border-radius: 200px;
-  box-shadow: 0 0 5px var(--color-gray);
+  box-shadow: 0 0 15px var(--color-light-gray);
+  background-color: var(--main-color-second);
   /* position: relative; para el marco*/
   transform: scale(1);
   /* z-index: -1; para el marco*/ 
@@ -50,11 +51,11 @@
   font-size: 2em;
   font-weight: bold;
   text-transform: uppercase;
-  color: var(--main-color-lightes);
+  color: var(--color-light-blue);
 }
 
 .profile__text {
-  font-size: 1.2em;
+  font-size: 1.3em;
   text-align: justify;
   color: var(--color-gray);
   padding: 10px 0;

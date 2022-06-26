@@ -6,6 +6,10 @@
   top: 10px;
 }
 
+.wave__fill {
+  fill: var(--main-color-second);
+}
+
 .wave--footer {
   top: -10px;
 }
@@ -34,7 +38,7 @@
   position: absolute;
   top: 100px;
   transform: rotate(180deg);
-  background-image: url(./../../img/body/wd1.svg);
+  background-image: url(./../../img/svg/wave/wave.svg);
   background-color: transparent;
 }
 

@@ -13,6 +13,11 @@
   <link rel="stylesheet" href="./assets/css/main/wave.css">
   <link rel="stylesheet" href="./assets/css/main/about.css">
   <link rel="stylesheet" href="./assets/css/main/skills.css">
+  <link rel="stylesheet" href="./assets/css/main/blob.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 
@@ -24,8 +29,9 @@
     </div>
     <nav class="menu">
       <ul class="menu__list">
+        <li class="menu__item"> <a href="#about" class="menu__link">Sobre mi</a> </li>
         <li class="menu__item"> <a href="#" class="menu__link">educacion</a> </li>
-        <li class="menu__item"> <a href="#" class="menu__link">conocimiento</a> </li>
+        <li class="menu__item"> <a href="#skills" class="menu__link">conocimiento</a> </li>
         <li class="menu__item"> <a href="#" class="menu__link">experiencia</a> </li>
         <li class="menu__item"> <a href="#" class="menu__link">contacto</a> </li>
       </ul>
@@ -35,7 +41,7 @@
   <main class="main">
 
     <div class="main__particles" id="particles-bg"></div>
-    
+
     <section class="home" id="home">
       <div class="presentation">
         <h1 class="presentation__name">Juan Sebastian Bustos Marroquin</h1>
@@ -51,7 +57,7 @@
       </div>
     </section>
 
-    <section class="wave">
+    <section class="wave" id="about2">
       <div class="wave__particles" id="particles-bg-wave"></div>
       <div class="wave__content">
         <div class="wave__svg wave__svg--animation"></div>
@@ -64,12 +70,15 @@
         <img class="profile__photo" src="./assets/img/Photo/photo-jsbm-c.png" alt="juan sebastian photo">
         <div class="profile__description">
           <h1 class="profile__tittle">Sobre mi</h1>
-          <p class="profile__text">Soy analista e inovador, con capacidad adaptativa a los continuos cambios en el entorno 
-            de desarrollo, buen control de versionamiento y buenas practicas de escritura de codigo, apoyandome ademas 
-            del paradigma DevOps para un control optimo del ciclo de vida del proyecto, trabajando de manera colaborativa 
+          <p class="profile__text">Soy analista e inovador, con capacidad adaptativa a los continuos cambios en el
+            entorno
+            de desarrollo, buen control de versionamiento y buenas practicas de escritura de codigo, apoyandome ademas
+            del paradigma DevOps para un control optimo del ciclo de vida del proyecto, trabajando de manera
+            colaborativa
             bajo metodologias agiles como SCRUM alcanzando con exito el cumplimiento de los objetivos profesionales.</p>
-            <p class="profile__text">Actualmente estoy finalizando una formacion en FrontEnd gracias a Oracle Next Education
-              en asociacion con Alura Latam.</p>
+          <p class="profile__text">Actualmente estoy finalizando una formacion en FrontEnd gracias a Oracle Next
+            Education
+            en asociacion con Alura Latam.</p>
           <img class="profile__firma" src="./assets/img/firma/firma-vectorizada2.png" alt="firma jsbm">
         </div>
       </div>
@@ -84,22 +93,120 @@
     <section class="skills" id="skills">
       <h1 class="skills__tittle">Habilidades</h1>
       <div class="skills__content">
-        <div class="skill">
-          <img class="skill__img" src="" alt="">
-          <svg role="img" title="bootstrap"> <use href="#bootstrap" /> </svg>
-          <div class="skill__tittle"></div>
+        <div class="skill animate">
+          <i class="fa-brands fa-js-square"></i>
+          <div class="skill__tittle">javascript</div>
+          <div class="skill__bar"></div>
+        </div>
+        <div class="skill animate">
+          <i class="fa-brands fa-css3-alt"></i>
+          <div class="skill__tittle">CSS3</div>
+          <div class="skill__bar"></div>
+        </div>
+        <div class="skill animate">
+          <i class="fa-brands fa-html5"></i>
+          <div class="skill__tittle">HTML5</div>
+          <div class="skill__bar"></div>
+        </div>
+        <div class="skill animate">
+          <i class="fa-brands fa-bootstrap"></i>
+          <div class="skill__tittle">bootstrap</div>
+          <div class="skill__bar"></div>
+        </div>
+        <div class="skill animate">
+          <i class="fa-brands fa-java"></i>
+          <div class="skill__tittle">java</div>
+          <div class="skill__bar"></div>
+        </div>
+        <div class="skill animate">
+          <i class='bx bxl-spring-boot'></i>
+          <div class="skill__tittle">Spring Boot</div>
+          <div class="skill__bar"></div>
+        </div>
+        <div class="skill animate">
+          <i class="fa-brands fa-jenkins"></i>
+          <div class="skill__tittle">Jenkins</div>
+          <div class="skill__bar"></div>
+        </div>
+        <div class="skill animate">
+          <i class="fa-brands fa-node-js"></i>
+          <div class="skill__tittle">Node.js</div>
+          <div class="skill__bar"></div>
+        </div>
+        <div class="skill animate">
+          <i class="fa-brands fa-python"></i>
+          <div class="skill__tittle">python</div>
+          <div class="skill__bar"></div>
+        </div>
+        <div class="skill animate">
+          <i class="fa-brands fa-react"></i>
+          <div class="skill__tittle">React</div>
+          <div class="skill__bar"></div>
+        </div>
+        <div class="skill animate">
+          <i class="fa-brands fa-angular"></i>
+          <div class="skill__tittle">angular</div>
+          <div class="skill__bar"></div>
+        </div>
+        <div class="skill animate">
+          <i class="fa-brands fa-github"></i>
+          <div class="skill__tittle">GitHub</div>
+          <div class="skill__bar"></div>
+        </div>
+        <div class="skill animate">
+          <i class="fa-brands fa-docker"></i>
+          <div class="skill__tittle">Docker</div>
+          <div class="skill__bar"></div>
+        </div>
+        <div class="skill animate">
+          <i class='bx bxl-jquery'></i>
+          <div class="skill__tittle">jquery</div>
+          <div class="skill__bar"></div>
+        </div>
+        <div class="skill animate">
+          <i class='bx bxl-mongodb'></i>
+          <div class="skill__tittle">Mongo DB</div>
           <div class="skill__bar"></div>
         </div>
       </div>
+      <svg class="blob" viewBox="0 0 1200 600" width="1200" height="600"
+        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+        <g transform="translate(450.7256843113689 283.4942824330989)">
+          <path id="blob1"
+            d="M148.7 -134.9C193.7 -103.7 231.9 -51.9 232.4 0.6C233 53 196.1 106.1 151.1 128.6C106.1 151.1 53 143 -4.4 147.4C-61.8 151.8 -123.5 168.5 -151.2 146C-178.8 123.5 -172.4 61.8 -172.8 -0.4C-173.1 -62.5 -180.3 -124.9 -152.6 -156.1C-124.9 -187.3 -62.5 -187.1 -5.3 -181.8C51.9 -176.5 103.7 -166 148.7 -134.9"
+            class="blob__fill"></path>
+        </g>
+        <g transform="translate(509.54377535978017 281.49390864595887)" style="visibility: hidden">
+          <path id="blob2"
+            d="M115.4 -137.9C137.9 -92.9 136.4 -46.4 133.6 -2.8C130.8 40.8 126.6 81.6 104.1 118.4C81.6 155.2 40.8 188.1 -8.4 196.5C-57.5 204.8 -115 188.7 -151 151.9C-187 115 -201.5 57.5 -190.8 10.7C-180.1 -36.1 -144.1 -72.1 -108.1 -117.1C-72.1 -162.1 -36.1 -216.1 5.2 -221.2C46.4 -226.4 92.9 -182.9 115.4 -137.9"
+            class="blob__fill"></path>
+        </g>
+      </svg>
+      <svg class="blob__two" viewBox="0 0 1200 600" width="1200" height="600"
+        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+        <g transform="translate(450.7256843113689 283.4942824330989)">
+          <path id="blob3"
+            d="M148.7 -134.9C193.7 -103.7 231.9 -51.9 232.4 0.6C233 53 196.1 106.1 151.1 128.6C106.1 151.1 53 143 -4.4 147.4C-61.8 151.8 -123.5 168.5 -151.2 146C-178.8 123.5 -172.4 61.8 -172.8 -0.4C-173.1 -62.5 -180.3 -124.9 -152.6 -156.1C-124.9 -187.3 -62.5 -187.1 -5.3 -181.8C51.9 -176.5 103.7 -166 148.7 -134.9"
+            class="blob__fill"></path>
+        </g>
+        <g transform="translate(509.54377535978017 281.49390864595887)" style="visibility: hidden">
+          <path id="blob4"
+            d="M115.4 -137.9C137.9 -92.9 136.4 -46.4 133.6 -2.8C130.8 40.8 126.6 81.6 104.1 118.4C81.6 155.2 40.8 188.1 -8.4 196.5C-57.5 204.8 -115 188.7 -151 151.9C-187 115 -201.5 57.5 -190.8 10.7C-180.1 -36.1 -144.1 -72.1 -108.1 -117.1C-72.1 -162.1 -36.1 -216.1 5.2 -221.2C46.4 -226.4 92.9 -182.9 115.4 -137.9"
+            class="blob__fill"></path>
+        </g>
+      </svg>
+      
     </section>
 
+    
   </main>
 
 
-  <script type="text/javascript" src="./assets/particles/particles.min.js"></script>
-  <script src="./assets/particles/particles.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+  <script type="text/javascript" src="./assets/js/particles/particles.min.js"></script>
+  <script type="text/javascript" src="./assets/js/particles/particles.js"></script>
   <script src="./assets/js/script.js"></script>
-
+  <script src="./assets/js/blob.js"></script>
 </body>
 
 </html>

@@ -20,7 +20,7 @@
   content: '>';
   font-size: 1.5em;
   font-weight: bold;
-  color: var(--main-color-lightes);
+  color: var(--color-light-blue);
   padding: 0 0 0 20px;
 }
 
@@ -28,7 +28,7 @@
   content: '<';
   font-size: 1.5em;
   font-weight: bold;
-  color: var(--main-color-lightes);
+  color: var(--color-light-blue);
   padding: 0 20px 0 0;
 }
 
@@ -42,7 +42,7 @@
 
 .logo__img:hover {
   transform: scale(1.03);
-  box-shadow: 0 0 20px var(--main-color-lightes);
+  box-shadow: 0 0 20px var(--color-light-blue);
 }
 
 .menu__list {
@@ -53,7 +53,7 @@
 }
 
 .menu__link {
-  font-size: 1.05em;
+  font-size: .95em;
   font-weight: bold;
   text-transform: capitalize;
   padding: 10px 0;
@@ -70,8 +70,8 @@
   background-size: 0% 2px;
   transition: background-size 0.25s;
   text-shadow: 0 0 1px rgba(255, 255, 255, .50);
-  background-image: linear-gradient(var(--main-color-lightes),
-                                    var(--main-color-lightes));
+  background-image: linear-gradient(var(--color-light-blue),
+                                    var(--color-light-blue));
 }
 
 .menu__link::after {
@@ -87,7 +87,7 @@
 
 .menu__link:hover,
 .menu__link:focus {
-  color: var(--main-color-lightes);
+  color: var(--color-light-blue);
   background-size: 100% 2px;
   border-radius: 1.5px;
 }

@@ -3,21 +3,26 @@
 * {
   padding: 0;
   margin: 0;
-  
   font-family: 'Lato', sans-serif;
 }
 
-*, ::before, ::after {
+*,
+::before,
+::after {
   box-sizing: inherit;
 }
 
 :root {
   --main-color: #0a192f;
-  --main-color-second: #132135;
-  --main-color-lightes: #3addd2;
+  --main-color-second: #112240;
+  --color-light-blue: #3addd2;
   --color-white: #f4f4f4;
-  --color-gray: #a1a1a1;
-  --color-white-tittles: #ebf0ff;
+  --color-gray: #a7a7a7;
+  --color-light-gray: #b7b7b7;
+  --color-light-white: #ebf0ff;
+  --text-shadow: 0 0 5px rgba(255, 255, 255, .50);
+  --box-shadow: 0 0 10px rgba(202, 202, 202, 0.5);
+  --border-radius: 15px;
 }
 
 html {
