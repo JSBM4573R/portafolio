@@ -8,7 +8,7 @@
 .proyects__tittle {
   font-size: 1.8em;
   font-weight: bold;
-  margin: 50px 0 50px 0;
+  margin: 80px 0 50px 0;
   text-transform: lowercase;
   text-align: center;
   color: var(--color-light-blue);
@@ -40,6 +40,8 @@
 
 .proyect {
   margin: 80px 50px;
+  max-width: 640px;
+  min-height: auto;
   padding: 20px;
   z-index: 1;
   border-radius: var(--border-radius);
@@ -48,16 +50,16 @@
 }
 
 .project__img {
-  height: 400px;
+  height: 380px;
   width: 600px;
   object-fit: fill;
-  opacity: .5;
+  opacity: .55;
   border-radius: var(--border-radius);
   transition: var(--transition-text);
 }
 
 .project__img:hover {
-  opacity: .7;
+  opacity: .75;
   transform: scale(1.01);
 }
 
@@ -90,7 +92,6 @@
 }
 
 .proyect__icons i:hover {
-  transition: var(--transition-text);
   color: var(--color-light-gray);
-  font-size: 1.25em;
+  transform: scale(1.05);
 }
