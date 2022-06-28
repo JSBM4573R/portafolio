@@ -51,13 +51,13 @@
   height: 400px;
   width: 600px;
   object-fit: fill;
-  opacity: .4;
+  opacity: .5;
   border-radius: var(--border-radius);
   transition: var(--transition-text);
 }
 
 .project__img:hover {
-  opacity: .6;
+  opacity: .7;
   transform: scale(1.01);
 }
 
