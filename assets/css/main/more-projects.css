@@ -1,0 +1,116 @@
+.more__projects {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.more__projects__tittle {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: 80px 0 50px 0;
+  text-transform: lowercase;
+  text-align: center;
+  color: var(--color-light-blue);
+}
+
+.more__projects__tittle::before {
+  content: '<';
+  font-size: 1em;
+  padding: 0 10px;
+  color: var(--color-light-blue);
+}
+
+.more__projects__tittle::after {
+  content: '/>';
+  font-size: 1em;
+  padding: 0 10px;
+  color: var(--color-light-blue);
+}
+
+.other {
+  width: 85%;
+  padding: 0 0 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.other__content {
+  min-height: 320px;
+  max-width: 320px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  justify-self: flex-start;
+  border-radius: var(--border-radius);
+  background-color: var(--main-color-second);
+  transition: var(--transition-text);
+}
+
+.other__tittle {
+  margin: 15px 0;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+.other__tittle .other__link {
+  text-decoration: none;
+  text-shadow: var(--text-shadow);
+  color: var(--color-light-gray);
+  transition: var(--transition-text);
+}
+
+.other__tittle .other__link:hover {
+  color: var(--color-light-blue);
+  text-shadow: none;
+}
+
+.other__tittle .other__link::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+.other__content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px var(--box-shadow-dark);
+}
+
+.other__description {
+  font-size: 1em;
+  text-align: justify;
+  color: var(--color-gray);
+  padding-bottom: 15px;
+}
+
+.other__icons {
+  max-width: min-content;
+  display: flex;
+  flex-direction: row;
+  z-index: 0;
+}
+
+.other__icons i {
+  font-size: 1.2em;
+  margin-right: 10px;
+  color: var(--color-gray);
+  transition: var(--transition-text);
+}
+
+.other__icons i:hover {
+  color: var(--color-light-blue);
+}

@@ -53,7 +53,7 @@
   height: 380px;
   width: 600px;
   object-fit: fill;
-  opacity: .55;
+  opacity: .65;
   border-radius: var(--border-radius);
   transition: var(--transition-text);
 }
