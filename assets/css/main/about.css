@@ -1,19 +1,33 @@
 .about {
   width: 100%;
   height: 100%;
-  margin: auto;
-  min-height: 400px;
-  background-color: var(--main-color-second);
+  margin: 200px 0 150px 0;
+  position: relative;
+  z-index: -99;
+  background-color: transparent;
 }
 
 .profile {
-  margin: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: transparent;
+}
+
+.profile__content {
+  width: 100%;
+  min-height: 400px;
+  position: absolute;
+  padding: 10px 0;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: .9;
+  background-color: var(--main-color-second);
 }
 
 .photo__marco { /* deprecaried */
@@ -44,7 +58,7 @@
 
 .profile__description {
   max-width: 800px;
-  padding: 80px 40px;
+  padding: 10px 40px;
 }
 
 .profile__tittle {

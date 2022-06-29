@@ -1,17 +1,17 @@
 .wave {
   width: 100%;
   height: 400px;
-  position: relative;
+  position: absolute;
   overflow: hidden;
-  top: 10px;
+  top: -150px;
 }
 
 .wave__fill {
-  fill: var(--main-color-second);
+  fill: var(--colot-light-blue);
 }
 
 .wave--footer {
-  top: -10px;
+  top: 620px;
 }
 
 .wave__particles {
@@ -22,14 +22,13 @@
 .wave__content {
   width: 100%;
   height: 100%;
-  background-color: transparent;
 }
 
 .wave__content--rotate{
   transform: rotate(180deg);
   position: absolute;
   z-index: 99;
-  top: -50px;
+  top: 10px;
 }
 
 .wave__svg {
@@ -39,7 +38,7 @@
   top: 100px;
   transform: rotate(180deg);
   background-image: url(./../../img/svg/wave/wave.svg);
-  background-color: transparent;
+  background-color: #0000;
 }
 
 .wave__svg--animation {

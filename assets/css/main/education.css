@@ -35,12 +35,13 @@
   display: flex;
   flex-wrap: wrap;
   width: 60%;
+  padding: 30px;
+  opacity: .9;
   justify-content: center;
   align-items: center;
   background-color: var(--main-color-second);
   box-shadow: 0 0 10px var(--box-shadow-dark);
   border-radius: var(--border-radius);
-  padding: 30px;
 }
 
 .certificate {
@@ -54,10 +55,11 @@
 }
 
 .certificate__logo {
-  height: 200px;
   max-width: 200px;
   margin-bottom: 10px;
-  object-fit: contain;
+  border-radius: 100px;
+  opacity: .95;
+  /* object-fit: contain; */
 }
 
 .certificate__tittle {
