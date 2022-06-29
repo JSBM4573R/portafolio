@@ -69,7 +69,7 @@
   font-weight: bold;
   text-transform: lowercase;
   text-align: center;
-  color: var(--color-light-gray);
+  color: var(--color-light-blue);
 }
 
 .proyect__text {
@@ -92,6 +92,5 @@
 }
 
 .proyect__icons i:hover {
-  color: var(--color-light-gray);
-  transform: scale(1.05);
+  color: var(--color-light-blue);
 }
