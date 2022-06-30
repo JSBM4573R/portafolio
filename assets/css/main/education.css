@@ -1,7 +1,7 @@
 .education {
   min-height: 100vh;
   width: 100%;
-  padding: 50px 0;
+  padding: 3.125rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,9 +9,9 @@
 }
 
 .education__tittle {
-  font-size: 1.8em;
+  font-size: 1.8rem;
   font-weight: bold;
-  margin: 80px 0 50px 0;
+  margin: 5rem 0 3.125rem 0;
   text-transform: lowercase;
   text-align: center;
   color: var(--color-light-blue);
@@ -19,24 +19,26 @@
 
 .education__tittle::before {
   content: '<';
-  font-size: 1em;
-  padding: 0 10px;
+  font-size: 1.5rem;
+  padding: 0 .625rem;
   color: var(--color-light-blue);
 }
 
 .education__tittle::after {
   content: '/>';
-  font-size: 1em;
-  padding: 0 10px;
+  font-size: 1.5rem;
+  padding: 0 .625rem;
   color: var(--color-light-blue);
 }
 
 .certificates {
+  margin: auto;
+  max-width: 75rem;
+  min-height: 21.875rem;
+  padding: 1.875rem;
+  opacity: .9;
   display: flex;
   flex-wrap: wrap;
-  width: 60%;
-  padding: 30px;
-  opacity: .9;
   justify-content: center;
   align-items: center;
   background-color: var(--main-color-second);
@@ -45,36 +47,39 @@
 }
 
 .certificate {
-  margin: 20px;
-  min-height: 300px;
-  max-height: 300px;
-  max-width: 300px;
+  margin: 1.25rem;
+  min-height: 18.75rem;
+  max-height: 18.75rem;
+  max-width: 18.75rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .certificate__logo {
-  max-width: 200px;
-  margin-bottom: 10px;
-  border-radius: 100px;
+  border-radius: 200px;
+  box-shadow: 0 0 20px var(--box-shadow-dark);
+  max-width: 12.5rem;
+  margin-bottom: .625rem;
+  border-radius: 6.25rem;
   opacity: .95;
   /* object-fit: contain; */
 }
 
 .certificate__tittle {
-  padding: 10px 0;
-  max-width: 280px;
+  padding: .625rem 0;
+  max-width: 17.5rem;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: bold;
-  text-transform: lowercase;
+  text-transform: capitalize;
+  text-shadow: var(--text-shadow);
   color: var(--color-light-gray);
 }
 
 .certificate__status {
-  font-size: .8em;
+  font-size: .8rem;
   text-align: justify;
   color: var(--color-gray);
-  padding-bottom: 10px;
+  padding-bottom: .625rem;
 }
