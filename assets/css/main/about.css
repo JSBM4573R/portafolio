@@ -1,7 +1,7 @@
 .about {
   width: 100%;
   height: 100%;
-  margin: 200px 0 150px 0;
+  margin: 12.5rem 0 9.375rem 0;
   position: relative;
   z-index: -99;
   background-color: transparent;
@@ -10,7 +10,7 @@
 .profile {
   width: 100%;
   height: 100vh;
-  padding: 10px;
+  padding: .625rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,9 +19,9 @@
 
 .profile__content {
   width: 100%;
-  min-height: 400px;
+  min-height: 25rem;
   position: absolute;
-  padding: 10px 0;
+  padding: .625rem 0;
   z-index: 999;
   display: flex;
   justify-content: center;
@@ -32,10 +32,10 @@
 
 .photo__marco { /* deprecaried */
   position: relative;
-  height: 320px;
-  width: 320px;
-  padding: 50px;
-  border-radius: 160px;
+  height: 20rem;
+  width: 20rem;
+  padding: 3.125rem;
+  border-radius: 10rem;
   border: 7px solid var(--color-light-blue);
   position: relative;
   z-index: 98;
@@ -43,7 +43,7 @@
 }
 
 .profile__photo {
-  width: 350px;
+  width: 21.875rem;
   border: 5px solid var(--color-light-gray);
   border-radius: 200px;
   box-shadow: 0 0 15px var(--color-light-gray);
@@ -52,46 +52,46 @@
   transform: scale(1);
   /* z-index: -1; para el marco*/ 
   /* top: -335px para el marco;
-  left: -15.5px; para el marco*/
+  left: -15.5008px; para el marco*/
 }
 
-
 .profile__description {
-  max-width: 800px;
-  padding:  40px;
+  max-width: 50rem;
+  padding:  2.5rem;
 }
 
 .profile__tittle {
-  font-size: 1.8em;
+  font-size: 1.8rem;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: .625rem;
   text-transform: lowercase;
   color: var(--color-light-blue);
 }
 
 .profile__tittle::before {
   content: '<';
-  font-size: 1em;
-  padding: 0 10px;
+  font-size: 1.5rem;
+  padding: 0 .625rem;
   color: var(--color-light-blue);
 }
 
 .profile__tittle::after {
   content: '/>';
-  font-size: 1em;
-  padding: 0 10px;
+  font-size: 1.5rem;
+  padding: 0 .625rem;
   color: var(--color-light-blue);
 }
 
 .profile__text {
-  font-size: 1.3em;
+  font-size: 1.3rem;
   text-align: justify;
   color: var(--color-gray);
-  padding: 10px 0;
+  padding: .625rem 0;
 }
 
 .profile__firma {
-  margin-top: 10px;
-  width: 233px;
+  margin-top: .625rem;
+  width: 14.5625rem;
   transform: rotate(-5deg);
 }
+

@@ -36,7 +36,7 @@ html {
   width: 100%;
   scroll-behavior: smooth;
   box-sizing: border-box;
-  font-size: var(--font-size-xs);
+  font-size: var(--font-size-md);
 }
 
 body {
