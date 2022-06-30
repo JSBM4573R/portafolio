@@ -7,7 +7,7 @@ particlesJS("particles-bg", {
       "value": 300,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 900
       }
     },
     "color": {
@@ -116,10 +116,10 @@ particlesJS("particles-bg", {
 particlesJS("particles-bg-wave", {
   "particles": {
     "number": {
-      "value": 250,
+      "value": 200,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 900
       }
     },
     "color": {

@@ -28,7 +28,7 @@
   transform: rotate(180deg);
   position: absolute;
   z-index: 99;
-  top: 10px;
+  top: 50px;
 }
 
 .wave__svg {
