@@ -20,6 +20,10 @@
   --color-gray: #a7a7a7;
   --color-light-gray: #b7b7b7;
   --color-light-white: #ebf0ff;
+  --font-size-lg: 18px;
+  --font-size-md: 16px;
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
   --text-shadow: 0 0 1.5px rgba(255, 255, 255, .50);
   --box-shadow-light: rgba(202, 202, 202, 0.5);
   --box-shadow-dark: rgba(10, 13, 51, 0.5);
@@ -32,6 +36,7 @@ html {
   width: 100%;
   scroll-behavior: smooth;
   box-sizing: border-box;
+  font-size: var(--font-size-xs);
 }
 
 body {
@@ -41,7 +46,7 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   background-color: var(--main-color);
-  font-size: 16px;
+  line-height: 1.25;
 }
 
 .main__particles {
