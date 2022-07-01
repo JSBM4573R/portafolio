@@ -199,6 +199,30 @@
   }
 }
 
+@media screen and (max-width: 1285px) and (max-height: 820px) and (orientation : landscape){
+  .profile__content {
+    margin-top: 200px;
+  }
+  .about {
+    margin-bottom: 500px;
+  }
+  .wave--footer {
+    top: 690px;
+  }
+}
+
+@media screen and (max-width: 1120px) and (max-height: 769px) and (orientation : landscape){
+  .profile__content {
+    margin-top: 450px;
+  }
+  .about {
+    margin-bottom: 500px;
+  }
+  .wave--footer {
+    top: 730px;
+  }
+}
+
 @media screen and (max-device-width: 916px) and (orientation : landscape){
   .profile__content {
     margin-top: 620px;
