@@ -65,14 +65,21 @@
 
 .project__tittle {
   margin: .9375rem 0;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: bold;
-  text-transform: lowercase;
+  text-transform: capitalize;
   text-align: center;
   color: var(--color-light-blue);
 }
 
 .project__text {
+  font-size: 1.1rem;
+  text-align: justify;
+  color: var(--color-light-gray);
+  padding-bottom: .625rem;
+}
+
+.project__skills {
   font-size: 1rem;
   text-align: justify;
   color: var(--color-gray);
@@ -85,7 +92,7 @@
 }
 
 .project__icons i {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-right: .625rem;
   color: var(--color-gray);
   transition: var(--transition-text);
@@ -95,19 +102,6 @@
   color: var(--color-light-blue);
 }
 
-
-
-/* @media screen and (max-width:1440px)  {
-
-  .project {
-    max-width: 590px;
-  }
-
-  .project__img {
-    height: 330px;
-    width: 550px;
-  }
-} */
 
 @media screen and (max-width:1440px)  {
   .project {

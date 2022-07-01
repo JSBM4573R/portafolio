@@ -17,14 +17,14 @@
   --main-color-second: #112240;
   --color-light-blue: #3addd2;
   --color-white: #f4f4f4;
-  --color-gray: #a7a7a7;
-  --color-light-gray: #b7b7b7;
+  --color-gray: #b1b1b1;
+  --color-light-gray: #c7c7c7;
   --color-light-white: #ebf0ff;
   --font-size-lg: 18px;
   --font-size-md: 16px;
   --font-size-sm: 14px;
   --font-size-xs: 12px;
-  --text-shadow: 0 0 1.5px rgba(255, 255, 255, .50);
+  --text-shadow: 0 0 1.8px rgba(255, 255, 255, .50);
   --box-shadow-light: rgba(202, 202, 202, 0.5);
   --box-shadow-dark: rgba(10, 13, 51, 0.5);
   --border-radius: 8px;

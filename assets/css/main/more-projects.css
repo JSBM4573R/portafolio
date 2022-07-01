@@ -61,7 +61,7 @@
   margin: .9375rem 0;
   font-size: 1.3rem;
   font-weight: bold;
-  text-transform: lowercase;
+  text-transform: capitalize;
   text-align: center;
 }
 
@@ -101,7 +101,7 @@
 }
 
 .other__skills {
-  font-size: 1rem;
+  font-size: .9rem;
   color: var(--color-gray);
   padding-bottom: .9375rem;
 }
