@@ -45,12 +45,14 @@
   font-weight: bold;
   margin-top: 1.875rem;
   max-width: 9.375rem;
-  height: 3.125rem;
+  padding: .75rem;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
   border: 2px solid var(--color-light-blue);
   border-radius: var(--border-radius);
   background-color: var(--main-color);
   color: var(--color-light-gray);
-  cursor: pointer;
   transition: var(--transition-box);
 }
 
