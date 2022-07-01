@@ -141,3 +141,17 @@
     font-size: 1.2rem;
   }
 }
+
+@media screen and (max-width:400px)  {
+  .presentation {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .presentation__name {
+    font-size: 1.9rem;
+  }
+  .presentation__tittle {
+    font-size: 1.2rem;
+  }
+}
+

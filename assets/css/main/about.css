@@ -150,4 +150,30 @@
   }
 }
 
+@media screen and (max-height:920px) {
+  .profile__content {
+    margin-top: 250px;
+  }
+  .about {
+    margin-bottom: 500px;
+  }
+  .wave--footer {
+    top: 1000px;
+  }
+}
 
+@media screen and (max-height:760px) {
+  .wave--footer {
+    top: 850px;
+  }
+}
+
+@media screen and (max-device-width: 916px) and (orientation : landscape){
+  .profile__content {
+    margin-top: 620px;
+  }
+
+  .about {
+    margin-bottom: 800px;
+  }
+}

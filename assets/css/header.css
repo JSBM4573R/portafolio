@@ -262,3 +262,9 @@
   }
   
 }
+
+@media screen and (max-width:500px) {
+  .hamburger {
+    right: 30px;
+  }
+}
