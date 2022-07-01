@@ -142,3 +142,44 @@
 .bx.bxl-mongodb {
   color: #17bf0b;
 }
+
+@media screen and (max-width:1600px)  {
+  .skills__content {
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-width:1440px)  {
+  .skills__content {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width:1220px)  {
+  .skills__content {
+    max-width: 85%;
+    padding: 2.5rem;
+  }
+}
+
+@media screen and (max-width:768px)  {
+  .skills__content {
+    max-width: 95%;
+    padding: .5rem;
+  }
+}
+
+@media screen and (max-width:400px)  {
+  .skills__content {
+    max-width: 100%;
+  }
+  .skill {
+    max-width: 7rem;
+    max-height: 7rem;
+    padding: .8rem;
+    margin: .8rem;
+  }
+  .skill i {
+    font-size: 2.8rem;
+  }
+}
