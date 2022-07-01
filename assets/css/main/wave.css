@@ -53,3 +53,22 @@
     margin-left: -1600px;
   }
 }
+
+
+/* @media screen and (max-height:px)  {
+  .wave {
+    top: -150px;
+  }
+  .wave__content--rotate{
+    top: 50px;
+  }
+}
+
+@media screen and (max-height:1220px)  {
+
+}
+
+@media screen and (max-height:768px)  {
+
+} */
+

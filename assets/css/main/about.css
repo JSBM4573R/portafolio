@@ -10,7 +10,6 @@
 .profile {
   width: 100%;
   height: 100vh;
-  padding: .625rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +19,6 @@
 .profile__content {
   width: 100%;
   min-height: 25rem;
-  position: absolute;
   padding: .625rem 0;
   z-index: 999;
   display: flex;
@@ -30,29 +28,13 @@
   background-color: var(--main-color-second);
 }
 
-.photo__marco { /* deprecaried */
-  position: relative;
-  height: 20rem;
-  width: 20rem;
-  padding: 3.125rem;
-  border-radius: 10rem;
-  border: 7px solid var(--color-light-blue);
-  position: relative;
-  z-index: 98;
-  background: transparent;
-}
-
 .profile__photo {
   width: 21.875rem;
   border: 5px solid var(--color-light-gray);
   border-radius: 200px;
   box-shadow: 0 0 15px var(--color-light-gray);
   background-color: var(--main-color-second);
-  /* position: relative; para el marco*/
   transform: scale(1);
-  /* z-index: -1; para el marco*/ 
-  /* top: -335px para el marco;
-  left: -15.5008px; para el marco*/
 }
 
 .profile__description {
@@ -94,4 +76,78 @@
   width: 14.5625rem;
   transform: rotate(-5deg);
 }
+
+
+
+@media screen and (max-width:1220px)  {
+  .profile__photo {
+    width: 18.75rem;
+  }
+  .profile__content {
+    padding: 1rem 3rem;
+  }
+  .wave {
+    top: -160px;
+  }
+  .wave--footer {
+    top: 700px;
+  }
+}
+
+@media screen and (max-width:980px)  {
+  .profile__content {
+    padding: 1.5rem 1rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .profile__description {
+    padding-top: 0rem;
+  }
+  .wave {
+    top: -280px;
+  }
+  .wave--footer {
+    top: 800px;
+  }
+  .wave__svg {
+    width: 400%;
+  }
+}
+
+@media screen and (max-width:768px)  {
+  .profile__content {
+    padding: 1.5rem 1rem;
+  }
+  .profile__description {
+    padding-top: 2rem;
+  }
+  .wave {
+    top: -310px;
+  }
+  .wave--footer {
+    top: 850px;
+  }
+  .wave__svg {
+    width: 400%;
+  }
+}
+
+@media screen and (max-width:480px)  {
+  .profile__content {
+    padding: 1.5rem .5rem;
+  }
+  .profile__description {
+    padding-top: 1.5rem;
+  }
+  .wave {
+    top: -350px;
+  }
+  .wave--footer {
+    top: 950px;
+  }
+  .wave__svg {
+    width: 600%;
+  }
+}
+
 
