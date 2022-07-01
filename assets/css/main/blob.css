@@ -19,3 +19,22 @@
   fill: var(--main-color-second);
   opacity: .6;
 }
+
+@media screen and (max-width:940px)  {
+  .blob__two {
+    right: -550px;
+    top: 670px;
+  }
+}
+
+@media screen and (max-width:450px)  {
+  .blob {
+    left: -140px;
+    top: -30px;
+  }
+  .blob__two {
+    right: -450px;
+    top: 820px;
+    z-index: -1;
+  }
+}
