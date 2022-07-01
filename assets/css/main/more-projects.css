@@ -123,3 +123,25 @@
 .other__icons i:hover {
   color: var(--color-light-blue);
 }
+
+
+@media screen and (max-width:1440px)  {
+  .other {
+    margin: auto;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:1220px)  {
+  .other {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:780px)  {
+  .other__content {
+    max-width: 24rem;
+    max-height: 10rem;
+  }
+}
+
