@@ -63,3 +63,21 @@ body {
   width: 100%;
   min-height: 100vh;
 }
+
+@media screen and (max-width:1440px) {
+  body {
+    font-size: var(--font-size-md);
+  }
+}
+
+@media screen and (max-width:768px) {
+  body {
+    font-size: var(--font-size-sm);
+  }
+}
+
+@media screen and (max-width:380px) {
+  body {
+    font-size: var(--font-size-xs);
+  }
+}
