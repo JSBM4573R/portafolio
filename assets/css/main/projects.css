@@ -1,11 +1,11 @@
-.proyects {
+.projects {
   padding: 3.125rem 0 3.125rem 0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-.proyects__tittle {
+.projects__tittle {
   font-size: 1.8rem;
   font-weight: bold;
   margin: 5rem 0 3.125rem 0;
@@ -14,21 +14,21 @@
   color: var(--color-light-blue);
 }
 
-.proyects__tittle::before {
+.projects__tittle::before {
   content: '<';
   font-size: 1.5rem;
   padding: 0 .625rem;
   color: var(--color-light-blue);
 }
 
-.proyects__tittle::after {
+.projects__tittle::after {
   content: '/>';
   font-size: 1.5rem;
   padding: 0 .625rem;
   color: var(--color-light-blue);
 }
 
-.proyects__content {
+.projects__content {
   margin: auto;
   height: 100%;
   width: 100%;
@@ -38,7 +38,7 @@
   align-items: center;
 }
 
-.proyect {
+.project {
   margin: 5rem 35px;
   max-width: 40rem;
   min-height: auto;
@@ -72,25 +72,82 @@
   color: var(--color-light-blue);
 }
 
-.proyect__text {
+.project__text {
   font-size: 1rem;
   text-align: justify;
   color: var(--color-gray);
   padding-bottom: .625rem;
 }
 
-.proyect__icons {
+.project__icons {
   display: flex;
   flex-direction: row;
 }
 
-.proyect__icons i {
+.project__icons i {
   font-size: 1.2rem;
   margin-right: .625rem;
   color: var(--color-gray);
   transition: var(--transition-text);
 }
 
-.proyect__icons i:hover {
+.project__icons i:hover {
   color: var(--color-light-blue);
+}
+
+
+
+/* @media screen and (max-width:1440px)  {
+
+  .project {
+    max-width: 590px;
+  }
+
+  .project__img {
+    height: 330px;
+    width: 550px;
+  }
+} */
+
+@media screen and (max-width:1440px)  {
+  .project {
+    max-width: 800px;
+  }
+  .project__img {
+    height: 480px;
+    width: 700px;
+  }
+}
+
+@media screen and (max-width:768px)  {
+  .project {
+    max-width: 540px;
+    margin: 2rem 35px;
+  }
+  .project__img {
+    height: 280px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width:530px)  {
+  .project {
+    max-width: 440px;
+    margin: 16px 20px;
+  }
+  .project__img {
+    height: 230px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width:450px)  {
+  .project {
+    max-width: 340px;
+    margin: 16px 15px;
+  }
+  .project__img {
+    height: 180px;
+    width: 300px;
+  }
 }

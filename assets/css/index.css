@@ -65,19 +65,19 @@ body {
 }
 
 @media screen and (max-width:1440px) {
-  body {
+  html {
     font-size: var(--font-size-md);
   }
 }
 
 @media screen and (max-width:768px) {
-  body {
-    font-size: var(--font-size-sm);
+  html {
+    font-size: var(--font-size-md);
   }
 }
 
 @media screen and (max-width:380px) {
-  body {
-    font-size: var(--font-size-xs);
+  html {
+    font-size: var(--font-size-sm);
   }
 }
