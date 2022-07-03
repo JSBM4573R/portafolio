@@ -29,14 +29,14 @@
   --box-shadow-dark: rgba(10, 13, 51, 0.5);
   --border-radius: 8px;
   --transition-text: 0.25s cubic-bezier(0.645,0.045,0.355,1) all;
-  --transition-box: .28s cubic-bezier(0.39, 0.575, 0.565, 1) all;
+  --transition-box: 0.28s cubic-bezier(0.39, 0.575, 0.565, 1) all;
 }
 
 html {
   width: 100%;
   scroll-behavior: smooth;
   box-sizing: border-box;
-  font-size: var(--font-size-md);
+  font-size: var(--font-size-lg);
 }
 
 body {
@@ -64,13 +64,7 @@ body {
   min-height: 100vh;
 }
 
-@media screen and (max-width:1440px) {
-  html {
-    font-size: var(--font-size-md);
-  }
-}
-
-@media screen and (max-width:768px) {
+@media screen and (max-width:1980px) {
   html {
     font-size: var(--font-size-md);
   }

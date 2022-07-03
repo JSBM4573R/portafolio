@@ -205,7 +205,6 @@
 }
 
 @media screen and (max-width:768px) {
-
   .menu__list {
     font-size: 1.3em;
     position: fixed;
@@ -221,25 +220,20 @@
     background-color: var(--main-color);
     box-shadow: 10px 0px 30px -10px var(--box-shadow-dark);
   } 
-
   .menu__list--active {
     right: 0;
   }
-
   .menu__link {
     margin: auto;
     margin-bottom: 20px;
   }
-
   .menu__link--contact {
     margin: 20px 0;
     padding: 20px;
   }
-
   .hamburger {
     display: block;
   }
-
   .menu__background {
     position: fixed;
     top: 0;
@@ -249,16 +243,13 @@
     background-color: rgba(10, 25, 47, 0.700);
     display: none;
   }
-
   .menu__background--active {
     display: block;
   }
-
   .stop-scrolling {
     height: 100%;
     overflow: hidden;
-  }
-  
+  } 
 }
 
 @media screen and (max-width:500px) {
