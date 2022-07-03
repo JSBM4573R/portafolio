@@ -144,8 +144,6 @@
 }
 
 
-
-
 /* hamburguer */
 
 .hamburger {
@@ -265,6 +263,10 @@
 
 @media screen and (max-width:500px) {
   .hamburger {
+    top: 30px;
     right: 30px;
+  }
+  .logo {
+    transform: translateX(-15px);
   }
 }
