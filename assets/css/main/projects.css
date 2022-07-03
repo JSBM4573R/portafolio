@@ -53,13 +53,13 @@
   height: 23.75rem;
   width: 37.5rem;
   object-fit: fill;
-  opacity: .7;
+  opacity: .75;
   border-radius: var(--border-radius);
   transition: var(--transition-text);
 }
 
 .project__img:hover {
-  opacity: .8;
+  opacity: .85;
   transform: scale(1.01);
 }
 
