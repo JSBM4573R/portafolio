@@ -72,6 +72,22 @@
   height: 37.5rem;
 }
 
+.picture--animation {
+  animation: picture-animation 7s cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
+}
+
+@keyframes picture-animation {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 @media screen and (max-width:1440px)  {
   .home {
     padding-left: 4.5rem;
