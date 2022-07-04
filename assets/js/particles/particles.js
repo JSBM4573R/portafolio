@@ -4,7 +4,7 @@
 particlesJS("particles-bg", {
   "particles": {
     "number": {
-      "value": 400,
+      "value": 200,
       "density": {
         "enable": true,
         "value_area": 900
@@ -29,12 +29,12 @@ particlesJS("particles-bg", {
       }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 0.7,
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 0.1,
-        "opacity_min": 0.2,
+        "speed": 0.5,
+        "opacity_min": 0.8,
         "sync": false
       }
     },
@@ -112,11 +112,10 @@ particlesJS("particles-bg", {
   "retina_detect": true
 });
   
-
 particlesJS("particles-bg-wave", {
   "particles": {
     "number": {
-      "value": 250,
+      "value": 100,
       "density": {
         "enable": true,
         "value_area": 900
@@ -141,7 +140,7 @@ particlesJS("particles-bg-wave", {
       }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 0.7,
       "random": true,
       "anim": {
         "enable": false,

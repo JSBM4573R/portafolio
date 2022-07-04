@@ -1,30 +1,54 @@
 .about {
+  margin-top: 18.75rem;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.about__content {
   width: 100%;
   height: 100%;
-  margin: 12.5rem 0 9.375rem 0;
-  position: relative;
-  z-index: -99;
-  background-color: transparent;
+}
+
+.about__wave {
+  transform: rotate(180deg);
+  width: 300%;
+  height: 198px;
+  position: absolute;
+  left: 0;
+  top: .3125rem;
+  background-image: url(../../img/svg/wave/wave.svg);
+}
+
+.wave--footer {
+  left: 0;
+  bottom: .3125rem;
+  width: 300%;
+  height: 198px;
+  position: absolute;
+  background-image: url(../../img/svg/wave/wave.svg);
+}
+
+.wave--animation {
+  animation: wave-margin 7s linear infinite;
+}
+
+@keyframes wave-margin {
+  0% {
+      margin-left: 0;
+  }
+  100% {
+      margin-left: -1600px;
+  }
 }
 
 .profile {
-  width: 100%;
-  height: 100vh;
+  margin: 198px auto;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: transparent;
-}
-
-.profile__content {
-  width: 100%;
-  min-height: 25rem;
-  padding: .625rem 0;
-  z-index: 999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: .9;
+  min-width: 100%;
   background-color: var(--main-color-second);
 }
 
@@ -77,130 +101,17 @@
   transform: rotate(-5deg);
 }
 
-@media screen and (min-width:2450px) and (min-height:1350px) and (orientation : landscape)  {
-  .profile__content {
-    margin-top: -380px;
-  }
-  .wave--footer {
-    top: 740px;
-  }
+.about__particles {
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  z-index: -1;
+  top: -150px;
 }
 
-@media screen and (min-width:1300px) and (max-height:768px) and (orientation : landscape)  {
-  .profile__content {
-    margin-top: 180px;
-  }
-  .wave--footer {
-    top: -240px;
-  }
-}
-
-@media screen and (max-width:1220px)  {
-  .profile__photo {
-    width: 18.75rem;
-  }
-  .profile__content {
-    padding: 1rem 3rem;
-  }
-  .wave {
-    top: -160px;
-  }
-  .wave--footer {
-    top: 700px;
-  }
-}
-
-
-@media screen and (max-width:980px)  {
-  .profile__content {
-    padding: 1.5rem 1rem;
+@media screen and (max-width:1024px)  {
+  .profile {
     flex-direction: column;
-    justify-content: center;
-  }
-  .profile__description {
-    padding-top: 0rem;
-  }
-  .wave {
-    top: -280px;
-  }
-  .wave--footer {
-    top: 800px;
-  }
-  .wave__svg {
-    width: 400%;
-  }
-}
-
-@media screen and (max-height: 920px) and (orientation : portrait){
-  .profile__content {
-    margin-top: 220px;
-  }
-  .about {
-    margin-bottom: 800px;
-  }
-  .wave--footer {
-    top: 999px;
-  }
-}
-
-@media screen and (max-height:800px) {
-  .wave--footer {
-    top: 650px;
-  }
-}
-
-@media screen and (max-height:769px) {
-  .profile__content {
-    margin-top: 250px;
-  }
-  .about {
-    margin-bottom: 500px;
-  }
-  .wave--footer {
-    top: 950px;
-  }
-} 
-
-@media screen and (max-width:768px)  {
-  .profile__content {
-    padding: 1.5rem 1rem;
-  }
-  .profile__description {
-    padding-top: 2rem;
-  }
-  .wave {
-    top: -310px;
-  }
-  .wave--footer {
-    top: 850px;
-  }
-  .wave__svg {
-    width: 400%;
-  }
-}
-
-@media screen and (max-height:760px) {
-  .wave--footer {
-    top: 590px;
-  }
-}
-
-@media screen and (max-width:650px)  {
-  .profile__content {
-    padding: 1.5rem .5rem;
-    margin-top: -50px;
-  }
-  .profile__description {
-    padding: 1.5rem 1.1rem 0 1.1rem;
-  }
-  .wave {
-    top: -350px;
-  }
-  .wave--footer {
-    top: 800px;
-  }
-  .wave__svg {
-    width: 600%;
   }
   .profile__description {
     display: flex;
@@ -208,154 +119,16 @@
     justify-content: center;
     align-items: center;
   }
-  .about {
-    margin-bottom: 500px;
-  }
 }
 
-@media screen and (max-width: 1285px) and (max-height: 820px) and (orientation : landscape){
-  .profile__content {
-    margin-top: 200px;
-  }
-  .about {
-    margin-bottom: 500px;
-  }
+@media screen and (max-width:768px)  {
+  .about__wave,
   .wave--footer {
-    top: 690px;
+    width: 600%;
+  }
+  .profile__description {
+    padding: 1.25rem;
   }
 }
-
-@media screen and (max-width: 1120px) and (max-height: 769px) and (orientation : landscape){
-  .profile__content {
-    margin-top: 450px;
-  }
-  .about {
-    margin-bottom: 500px;
-  }
-  .wave--footer {
-    top: 730px;
-  }
-}
-
-@media screen and (max-device-width: 916px) and (orientation : landscape){
-  .profile__content {
-    margin-top: 620px;
-  }
-  .about {
-    margin-bottom: 800px;
-  }
-  .wave--footer {
-    top: 820px;
-  }
-}
-
-@media screen and (max-width: 900px)  and (max-height: 800px) and (orientation : landscape){
-  .profile__content {
-    margin-top: 320px;
-  }
-  .about {
-    margin-bottom: 800px;
-  }
-}
-
-@media screen and (max-width: 830px) and (orientation : portrait){
-  .profile__content {
-    margin-top: 50px;
-  }
-  .about {
-    margin-bottom: 300px;
-  }
-  .wave--footer {
-    top: 850px;
-  }
-}
-
-@media screen and (max-width: 680px) and (orientation : portrait){
-  .profile__content {
-    margin-top: -80px;
-  }
-  .about {
-    margin-bottom: 300px;
-  }
-  .wave--footer {
-    top: 770px;
-  }
-}
-
-@media screen and (max-width: 830px) and (min-height: 1180px)  and (orientation : portrait){
-  .profile__content {
-    margin-top: -190px;
-  }
-  .about {
-    margin-bottom: 100px;
-  }
-  .wave--footer {
-    top: 820px;
-  }
-}
-
-
-@media screen and (max-width: 620px)  and (orientation : portrait){
-  .profile__content {
-    margin-top: -10px;
-  }
-  .about {
-    margin-bottom: 400px;
-  }
-  .wave--footer {
-    top: 870px;
-  }
-}
-
-@media screen and (max-width: 450px) and (max-height: 920px) and (orientation : portrait){
-  .profile__content {
-    margin-top: 120px;
-  }
-  .about {
-    margin-bottom: 400px;
-  }
-  .wave--footer {
-    top: 950px;
-  }
-}
-
-@media screen and (max-width: 400px) and (max-height: 855px) and (orientation : portrait){
-  .profile__content {
-    margin-top: 220px;
-  }
-  .about {
-    margin-bottom: 400px;
-  }
-  .wave--footer {
-    top: 980px;
-  }
-}
-
-@media screen and (max-height: 750px) and (orientation : portrait){
-  .profile__content {
-    margin-top: 250px;
-  }
-  .about {
-    margin-bottom: 600px;
-  }
-  .wave--footer {
-    top: 870px;
-  }
-}
-
-@media screen and (max-height: 680px) and (orientation : portrait){
-  .profile__content {
-    margin-top: 320px;
-  }
-  .about {
-    margin-bottom: 600px;
-  }
-  .wave--footer {
-    top: 870px;
-  }
-}
-
-
-
 
 
