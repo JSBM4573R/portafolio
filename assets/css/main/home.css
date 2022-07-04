@@ -107,9 +107,6 @@
 }
 
 @media screen and (max-width:768px)  {
-  .home {
-    padding-top: 17.5rem;
-  }
   .presentation {
     padding-left: 7rem;
     padding-right: 7rem;
@@ -148,7 +145,7 @@
   }
 }
 
-@media screen and (max-width:400px)  {
+@media screen and (max-width:420px)  {
   .presentation {
     padding-left: 2rem;
     padding-right: 2rem;
