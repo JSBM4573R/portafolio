@@ -145,3 +145,14 @@
     width: 300px;
   }
 }
+
+@media screen and (max-width:350px)  {
+  .project {
+    max-width: 260px;
+    margin: 8px 0;
+  }
+  .project__img {
+    height: 150px;
+    width: 230px;
+  }
+}

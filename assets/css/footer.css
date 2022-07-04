@@ -1,63 +1,61 @@
 .footer {
-    margin-top: 198px;
-    padding-top: 198px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: transparent;
-    position: relative;
-    overflow: hidden;
+  margin-top: 198px;
+  padding-top: 198px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
 }
 
 .footer__wave {
-    width: 600%;
-    height: 198px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 999;
-    background-image: url(../../assets/img/svg/wave/wave.svg);
-    transform: rotate(180deg);
+  width: 6000px;
+  height: 198px;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  background-image: url(../../assets/img/svg/wave/wave.svg);
+  transform: rotate(180deg);
 }
 
 .footer__content {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1.5625rem 0;
-    transition: var(--transition-text);
-    background-color: var(--main-color-second);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5625rem 0;
+  transition: var(--transition-text);
+  background-color: var(--main-color-second);
 }
 
 .socials i {
-    font-size: 1.8rem;
-    margin: 0 1.0625rem 0 1.0625rem;
-    cursor: pointer;
-    transition: var(--transition-text);
+  font-size: 1.8rem;
+  margin: 0 1.0625rem 0 1.0625rem;
+  cursor: pointer;
+  transition: var(--transition-text);
 }
 
 .socials .fa-brands.fa-github:hover,
 .socials .fa-brands.fa-linkedin:hover,
 .socials .fa-brands.fa-codepen:hover {
-    color: var(--color-light-blue);
+  color: var(--color-light-blue);
 }
 
 .socials .fa-brands.fa-github,
 .socials .fa-brands.fa-linkedin,
 .socials .fa-brands.fa-codepen {
-    color: var(--color-white);
-    text-shadow: 0 0 5px var(--box-shadow-light);
+  color: var(--color-white);
+  text-shadow: 0 0 5px var(--box-shadow-light);
 }
 
 .footer__bottom {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    padding: 0  0 1.875rem 0;
-    color: var(--color-white);
-    background-color: var(--main-color-second);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  padding: 0 0 1.875rem 0;
+  color: var(--color-white);
+  background-color: var(--main-color-second);
 }
-
