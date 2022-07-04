@@ -12,7 +12,7 @@
 
 .about__wave {
   transform: rotate(180deg);
-  width: 300%;
+  width: 600%;
   height: 198px;
   position: absolute;
   left: 0;
@@ -23,7 +23,7 @@
 .wave--footer {
   left: 0;
   bottom: .3125rem;
-  width: 300%;
+  width: 600%;
   height: 198px;
   position: absolute;
   background-image: url(../../img/svg/wave/wave.svg);
@@ -114,13 +114,19 @@
 }
 
 @media screen and (max-width:768px)  {
-  .about__wave,
-  .wave--footer {
-    width: 600%;
-  }
   .profile__description {
     padding: 1.25rem;
   }
 }
 
+
+@media screen and (max-width:285px)  {
+  .about__wave,
+  .wave--footer {
+    width: 800%;
+  }
+  .profile__description {
+    padding: 1.25rem;
+  }
+}
 

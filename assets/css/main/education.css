@@ -49,7 +49,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  opacity: .9;
   background-color: var(--main-color-second);
   box-shadow: 0 0 10px var(--box-shadow-dark);
   border-radius: var(--border-radius);
@@ -63,7 +62,7 @@
   font-weight: bold;
   text-transform: capitalize;
   text-shadow: var(--text-shadow);
-  color: var(--color-white);
+  color: var(--color-light-gray);
 }
 
 .certificate__status {
@@ -79,6 +78,7 @@
   margin-bottom: .625rem;
   border-radius: 200px;
   display: flex;
+  opacity: .8;
   justify-content: center;
   align-items: center;
   transition: var(--transition-box);
@@ -87,7 +87,7 @@
 
 .certificate__logo:hover {
   box-shadow: 0 0 20px var(--box-shadow-light);
-  
+  opacity: .95;
 }
 
 .certificate__logo__svg {

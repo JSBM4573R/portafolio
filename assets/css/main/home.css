@@ -107,6 +107,9 @@
 }
 
 @media screen and (max-width:768px)  {
+  .home {
+    padding-top: 17.5rem;
+  }
   .presentation {
     padding-left: 7rem;
     padding-right: 7rem;
@@ -138,7 +141,7 @@
     padding-right: 2.5rem;
   }
   .presentation__name {
-    font-size: 2rem;
+    font-size: 1.95rem;
   }
   .presentation__tittle {
     font-size: 1.2rem;
@@ -154,7 +157,20 @@
     font-size: 1.9rem;
   }
   .presentation__tittle {
-    font-size: 1.2rem;
+    font-size: 1.17rem;
+  }
+}
+
+@media screen and (max-width:285px)  {
+  .presentation {
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+  }
+  .presentation__name {
+    font-size: 1.8rem;
+  }
+  .presentation__tittle {
+    font-size: 1.1rem;
   }
 }
 

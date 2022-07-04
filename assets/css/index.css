@@ -14,7 +14,7 @@
 
 :root {
   --main-color: #0a192f;
-  --main-color-second: #112240;
+  --main-color-second: #0e203f;
   --color-light-blue: #3addd2;
   --color-white: #f4f4f4;
   --color-gray: #b1b1b1;
@@ -75,5 +75,11 @@ body {
 @media screen and (max-width:380px) {
   html {
     font-size: var(--font-size-sm);
+  }
+}
+
+@media screen and (max-width:285px) {
+  html {
+    font-size: var(--font-size-xs);
   }
 }
