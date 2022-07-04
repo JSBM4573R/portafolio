@@ -80,11 +80,11 @@
   justify-content: center;
   align-items: center;
   transition: var(--transition-box);
-  border: 3px solid var(--color-gray);
 }
 
 .certificate__logo:hover {
   box-shadow: 0 0 20px var(--box-shadow-light);
+  border: 3px solid var(--color-gray);
 }
 
 .certificate__logo__svg {

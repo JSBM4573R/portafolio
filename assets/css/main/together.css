@@ -1,0 +1,48 @@
+.together {
+  width: 100%;
+  margin-bottom: 18.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.together__logo {
+  cursor: pointer;
+  height: 12.5rem;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  transform: translateY(12.5rem);
+  box-shadow: 0 0 30px var(--color-gray);
+  transition: var(--transition-box);
+}
+
+.together__button {
+  font-size: 1.5rem;
+  font-weight: bold;
+    padding: .625rem .5625rem;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid var(--color-light-blue);
+  border-radius: var(--border-radius);
+  background-color: var(--main-color);
+  color: var(--color-light-gray);
+  transition: var(--transition-box);
+}
+
+.together__button:hover {
+  border: none;
+  background-color: var(--color-white);
+  border: 2px solid var(--color-white);
+  color: var(--main-color);
+  box-shadow: 0 0 20px var(--color-gray);
+}
+
+@media screen and (max-width:450px) {
+  .together {
+    margin-top: 6.25rem;
+  }
+}
