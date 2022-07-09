@@ -1,1 +1,1 @@
-Este es mi portafolio si quieres verlo puedes ir a verlo https://jsbm.netlify.app/
+Hola! Para mí es un gusto saludarte. Te invito a visitar mi portafolio personal! [link to portfolio](https://jsbm.netlify.app/)
