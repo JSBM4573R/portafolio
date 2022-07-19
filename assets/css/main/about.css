@@ -95,10 +95,24 @@
   padding: .625rem 0;
 }
 
-.profile__firma {
-  margin-top: .625rem;
-  width: 14.5625rem;
-  transform: rotate(-5deg);
+.profile__socials i {
+  margin: 1.5rem 1.25rem 0 1.25rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: var(--transition-text);
+}
+
+.profile__socials .fa-brands.fa-github:hover,
+.profile__socials .fa-brands.fa-linkedin:hover,
+.profile__socials .fa-brands.fa-codepen:hover {
+  color: var(--color-light-blue);
+}
+
+.profile__socials .fa-brands.fa-github,
+.profile__socials .fa-brands.fa-linkedin,
+.profile__socials .fa-brands.fa-codepen {
+  color: var(--color-white);
+  text-shadow: 0 0 5px var(--box-shadow-light);
 }
 
 @media screen and (max-width:1024px)  {
