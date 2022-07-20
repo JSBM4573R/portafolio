@@ -32,10 +32,10 @@
 }
 
 .certificates {
-  margin: auto;
+  margin: 0 auto;
   max-width: 75rem;
   min-height: 21.875rem;
-  padding: 1.875rem;
+  padding: 1.25rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -55,9 +55,9 @@
 
 .certificate__tittle {
   padding: .625rem 0;
-  max-width: 17.5rem;
+  max-width: 15rem;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
   text-transform: capitalize;
   text-shadow: var(--text-shadow);
@@ -72,8 +72,8 @@
 }
 
 .certificate__logo {
-  min-height: 15.625rem;
-  min-width: 15.625rem;
+  min-height: 11.875rem;
+  min-width: 11.875rem;
   margin-bottom: .625rem;
   border-radius: 200px;
   display: flex;
@@ -88,8 +88,8 @@
 }
 
 .certificate__logo__svg {
-  max-height: 12.5rem;
-  max-width: 12.5rem;
+  max-height: 6.25rem;
+  max-width: 9.375rem;
 }
 
 .certificate__logo__fill {
